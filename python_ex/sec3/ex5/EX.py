@@ -23,7 +23,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 x = np.linspace(-4,4,100)
-y = norm.pdf(x,loc =0 ,scale =1)
+y = norm.pdf(x,loc =0,scale =1)
 plt.plot(x,y)
 plt.title("Gaussion Distribution")
 plt.show()
